@@ -1,0 +1,10 @@
+.mydiv{
+    width: 200px;
+    height: 200px;
+    background-color: darkblue;
+}
+.myinnerdiv{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}

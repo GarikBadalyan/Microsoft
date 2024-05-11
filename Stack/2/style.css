@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.slider-wrap{
+    margin: 30px auto;
+    width: 650px;
+    height: 430px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.slider{
+    width: 650px;
+    height: 380px;
+    position: relative;
+}
+.opasity{
+    opacity: 0;
+}
+.slider img{
+    width: 650px;
+    height: 380px;
+    position: absolute;
+    transition: 1s ease;
+    opacity: 1;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+.btn-1, .btn-2{
+padding: 5px 50px;
+margin: 5px;
+color: red;
+font-size: 23px;
+border: 2px solid green;
+cursor: pointer;
+}
